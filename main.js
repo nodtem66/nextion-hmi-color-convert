@@ -84,9 +84,9 @@ function setNextionColor (id, str) {
   // YELLOW	65504	Yellow
   // compensate RBG value from linear relation 
   // note that b111 = 0x7, b11111 = 0x1F, b111111 = 0x3F
-  red +=  Math.round(red*7/0x1F);
-  green += Math.round(green*7/0x3F);
-  blue += Math.round(blue*7/0x1F);
+  //  red +=  Math.round(red*7/0x1F);
+  //green += Math.round(green*7/0x3F);
+  //blue += Math.round(blue*7/0x1F);
 	pickers[id].fromRGB(red, green, blue);
   update(id);
 }
