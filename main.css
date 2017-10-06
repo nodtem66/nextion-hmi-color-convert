@@ -1,0 +1,25 @@
+body {background: #333;color:#fff;margin:0}
+h1 {width:100%; text-align: center;padding-bottom:1em;margin-bottom:1em}
+#demo-app {position:relative; width:100%; min-height: 100vh;margin:0;}
+#demo-preview {margin:0 auto; padding: 80px 0; width:30%;text-align:center}
+#demo-app button {width: 180px;height: 50px;margin: 10px 0;}
+#demo-app table {width: 100%;font-size: 80%;}
+#demo-app th {font-weight: normal;padding: 0 5px;color: #CCC;}
+#demo-app .panel.bgcolor th {text-align: right;}
+#demo-app .panel.bgcolor td {text-align: left;}
+#demo-app .panel.fgcolor th {text-align: left;}
+#demo-app .panel.fgcolor td {text-align: right;}
+#demo-app table input {
+  width: 10em;
+  color: #FFF;
+  border: 1px solid #999;
+  background: #262626;
+  padding: 2px 5px;
+}
+#demo-app table input.short {width: 3em;text-align: center !important;}
+#demo-app table input.medium {width: 5em;text-align: center !important;}
+.panel {position:absolute; top: 0}
+.panel.bgcolor {left: 16px; padding:1em;}
+.panel.fgcolor {right: 16px; padding: 1em;} 
+tr.hmi th {color: yellow !important}
+tr.hmi td input {border-color: yellow !important}
